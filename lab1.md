@@ -59,5 +59,6 @@ The goals of this assignment are the following:
 
 ### Grading Rubric
 
+The general rubric we will use to grade your solution may be found here: [Grading Rubric](https://github.com/CS112-S17/notes/blob/master/grading_rubric.md)
 
-
+For this assignment, your solution must compile, run, produce correct output (*your* initials!), be well designed, and follow the [Style Guidelines](https://github.com/CS112-S17/notes/blob/master/style.md).
