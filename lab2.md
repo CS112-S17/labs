@@ -92,9 +92,9 @@ The goal of this assignment is to practice implementing programs that use the fo
 
 1. For this assignment, you will submit the following files: `Pokemon.java`, `PokemonDriver.java`, `AppleOrange.java`, and `CooksHelper.java`.
 
-2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-F16/notes/blob/master/style.md).
+2. Make sure your code follows all requirements in the [Style Guidelines](https://github.com/CS112-S17/notes/blob/master/style.md).
 
-3. Follow the instructions in the [SVN Guide](https://github.com/CS112-F16/notes/blob/master/svn_guide.md) for submitting your solution by the deadline.
+3. Follow the instructions in the [SVN Guide](https://github.com/CS112-S17/notes/blob/master/svn_guide.md) for submitting your solution by the deadline.
 
 4. Make sure you have submitted your work in an SVN directory: ```https://www.cs.usfca.edu/svn/<username>/cs112/lab2```
 
