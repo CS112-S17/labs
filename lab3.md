@@ -23,7 +23,7 @@ The goals of this assignment are to implement several programs that use the foll
       * Rock (1) beats scissors (3).
       * Paper (2) beats rock (1).
       * Scissors (3) beat paper (2).
-  - The following will generate a random number in Java. See [Randomize.java](https://github.com/CS112-F16/code/blob/master/LabExamples/Randomize.java) for a complete example.
+  - The following will generate a random number in Java. See [Randomize.java](https://github.com/CS112-S17/labs/blob/master/code/Randomize.java) for a complete example.
       * At the top of the class `import java.util.Random;`
       * In the main method, instantiate an object of type `Random`: `Random r = new Random();`
       * Invoke the `nextInt` method: `int computerChoice = r.nextInt(3) + 1;` Note that `nextInt` generates a number between 0 (inclusive) and the parameter (exclusive). In this case, it will generate a number from 0 to 2. By adding 1 we will get a number between 1 and 3.
