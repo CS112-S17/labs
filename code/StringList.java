@@ -11,6 +11,7 @@ public class StringList {
 		String[] of size 10.
 	**/
 	public StringList() {
+		//YOUR CODE HERE
 	}
 
 	/**
@@ -18,7 +19,7 @@ public class StringList {
 		String[] of size size.
 	**/
 	public StringList(int size) {
-
+		//YOUR CODE HERE
 	}
 
 	/**
@@ -28,9 +29,8 @@ public class StringList {
 		twice the size and copying all elements to 
 		the new array.
 	**/
-	public boolean add(String s)  {
-		// REPLACE WITH YOUR CODE
-		return false;
+	public void add(String s)  {
+		//YOUR CODE HERE
 	}
 	
 	/**
@@ -39,19 +39,30 @@ public class StringList {
 		it will be resized by creating new array of 
 		twice the size and copying all elements to the
 		new array.
-		Will throw an IndexOutOfBoundsException if the
-		index is out of range.
 	**/
 	public void add(int index, String s) {
-		// REPLACE WITH YOUR CODE
+		//YOUR CODE HERE
 	}
+
+	/**
+		Returns a string representation of the array.
+		Following is an example of the expected format:
+		{A,B,C,D,E}
+		For full credit your solution must iterate over
+		the array and build the string. 
+	**/
+	public String toString() {
+		//REPLACE WITH YOUR CODE
+		return null;
+	}
+
 
 	/**
 		Returns true if the array contains the string s
 		and false otherwise.
 	**/
 	public boolean contains(String s) {
-		// REPLACE WITH YOUR CODE
+		//REPLACE WITH YOUR CODE
 		return false;
 	}
 
@@ -60,7 +71,7 @@ public class StringList {
 		and false otherwise.
 	**/
 	public boolean isEmpty() {
-		// REPLACE WITH YOUR CODE
+		//REPLACE WITH YOUR CODE
 		return false;
 	}
 
@@ -70,8 +81,8 @@ public class StringList {
 		the total number of valid elements.
 	**/
 	public int size() {
-		// REPLACE WITH YOUR CODE
-		return 0;
+		//REPLACE WITH YOUR CODE
+		return -1;
 	}
 
 	/**
@@ -79,8 +90,8 @@ public class StringList {
 		or -1 if not found.
 	**/
 	public int indexOf(String s) {
-		// REPLACE WITH YOUR CODE
-		return 0;
+		//REPLACE WITH YOUR CODE
+		return -1;
 	}
 
 	/**
@@ -88,55 +99,47 @@ public class StringList {
 		or -1 if not found.
 	**/
 	public int lastIndexOf(String s) {
-		// REPLACE WITH YOUR CODE
-		return 0;
+		//REPLACE WITH YOUR CODE
+		return -1;
 	}
 
 	/**
-		Returns the String at the given index, 
-		may throw IndexOutOfBounds exception.
+		Returns the String at the given index.
+		Returns null if index is out of range.
 	**/
 	public String get(int index) {
-		// REPLACE WITH YOUR CODE
+		//REPLACE WITH YOUR CODE
 		return null;
 	}
 
-	/**
-		Replaces the element at index with the given string. 
-		May throw IndexOutOfBounds exception.
-		Returns the item replaced.
-	**/	
-	public String set(int index, String s) {
-		// REPLACE WITH YOUR CODE
-		return null;
-	}
 
 	/**
 		Removes the item at the given index and returns it.
-		May throw IndexOutOfBounds exception.
+		Returns null if index is out of range.
 	**/
 	public String remove(int index) {
-		// REPLACE WITH YOUR CODE
+		//REPLACE WITH YOUR CODE
 		return null;
 	}
 
 	/**
-		Removes the given item, returns true if successful
-		and false otherwise.
+		Removes the first occurance of the given item.
+		Returns true if successful and false otherwise.
 	**/
 	public boolean remove(String s) {
-		// REPLACE WITH YOUR CODE
+		//REPLACE WITH YOUR CODE
 		return false;
 	}
 
 	/**
-		Returns a string representation of the array.
-		Following is an example of the expected format:
-		{A, B, C, D, E}
-	**/
-	public String toString() {
-		// REPLACE WITH YOUR CODE
+		Replaces the element at index with the given string. 
+		Returns null if index is out of range.
+		Returns the item replaced.
+	**/	
+	public String set(int index, String s) {
+		//REPLACE WITH YOUR CODE
 		return null;
 	}
+
 
 }
