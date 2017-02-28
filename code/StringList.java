@@ -23,8 +23,8 @@ public class StringList {
 	}
 
 	/**
-		Adds the new item s to the end of the array 
-		and returns true. In case the array is full, 
+		Adds the new item s to the end of the array.
+		In case the array is full, 
 		it will be resized by creating new array of 
 		twice the size and copying all elements to 
 		the new array.
