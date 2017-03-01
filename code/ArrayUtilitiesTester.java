@@ -1,5 +1,8 @@
 import java.util.Arrays;
-
+/**
+	A class to test the solution to ArrayUtilities.java.
+	This class may not be modified.
+**/
 public class ArrayUtilitiesTester {
 
 
@@ -16,30 +19,42 @@ public class ArrayUtilitiesTester {
 
 	}
 
+	public static boolean results(String testName, boolean expected, boolean actual) {
+		System.out.println(testName);
+		System.out.println("Expected: " + expected);
+		System.out.println("Actual:   " + actual);
+
+		boolean result = expected == actual;
+		System.out.println((result?"PASS":"FAIL"));
+		System.out.println("\n=============");
+
+		return result;
+
+	}
+
 	public static void main(String[] args) {
 		int passed = 0;
 		int total = 0;
 
-		//test reverse even
-		char[] reverseEvenOriginal = {'a', 'b', 'c', 'd'};
-		char[] reverseEvenExpected = {'d', 'c', 'b', 'a'};
-		char[] reverseEvenActual = ArrayUtilities.reverse(reverseEvenOriginal);
-		if(results("Reverse Test Even Number Elements:", reverseEvenExpected, reverseEvenActual)) passed++;
+		//test isSquare true
+		char[][] isSquareTrueOriginal = new char[][] {
+			new char[] {'a', 'b'},
+			new char[] {'e', 'd'},
+		};
+		boolean isSquareTrueActual = ArrayUtilities.isSquare(isSquareTrueOriginal);
+		if(results("isSquare Test (true):", true, isSquareTrueActual)) passed++;
 		total++;
 
-		//test reverse odd
-		char[] reverseOddOriginal = {'a', 'b', 'c', 'd', 'e', 'f', 'g'};
-		char[] reverseOddExpected = {'g', 'f', 'e', 'd', 'c', 'b', 'a'};
-		char[] reverseOddActual = ArrayUtilities.reverse(reverseOddOriginal);
-		if(results("Reverse Test Odd Number Elements:", reverseOddExpected, reverseOddActual)) passed++;
+		//test isSquare false
+		char[][] isSquareFalseOriginal = new char[][] {
+			new char[] {'a', 'b'},
+			new char[] {'e', 'd'},
+			new char[] {'i', 'h'},
+		};
+		boolean isSquareFalseActual = ArrayUtilities.isSquare(isSquareFalseOriginal);
+		if(results("isSquare Test (false):", false, isSquareFalseActual)) passed++;
 		total++;
-		
-		//test reverse one
-		char[] reverseOneOriginal = {'a'};
-		char[] reverseOneExpected = {'a'};
-		char[] reverseOneActual = ArrayUtilities.reverse(reverseOneOriginal);
-		if(results("Reverse Test One Element:", reverseOneExpected, reverseOneActual)) passed++;
-		total++;
+
 
 		//test 2d to 1d
 		char[][] oneDOriginal = new char[][] {
@@ -63,8 +78,6 @@ public class ArrayUtilitiesTester {
 		char[] smallestActual = ArrayUtilities.smallestPerRow(smallestOriginal);
 		if(results("Largest Per Row Test:", smallestExpected, smallestActual)) passed++;
 		total++;
-
-
 
 		System.out.println("=============");
 		System.out.printf("Tests Passed: %d of %d\n", passed, total);

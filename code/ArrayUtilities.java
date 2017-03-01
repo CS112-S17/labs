@@ -2,22 +2,19 @@
 	A class with utility methods for manipulating one and two dimensional
 	arrays of characters.
 **/
-public class ArrayUtilities {
+public class ArrayUtilities { 
 
 	/**
-		Reverses the characters in the array original in place.
-		No new arrays may be created.
-		Returns the reference to the array original with
-		characters reversed.
-		Example input: ['a', 'b', 'c', 'd']
-		Example output: ['d', 'c', 'b', 'a']
+		Determines whether the 2D array is square. The array 
+		is square if the length of every row is the same. 
+		Returns true if the array is square and false
+		otherwise. The solution may not make any assumptions about
+		the number of rows or columns in original.		
 	**/
-	public static char[] reverse(char[] original) {
-
+	public static boolean isSquare(char[][] original) {
 		//REPLACE WITH YOUR CODE
-		return null;
+		return false;
 	}
-
 
 	/**
 		Converts a two dimensional array of char to a one 
@@ -31,9 +28,8 @@ public class ArrayUtilities {
 		 ['i', 'h', 'g']]
 		 Example output:
 		 ['a', 'b', 'c', 'e', 'd', 'f', 'i', 'h', 'g']
-	 **/
+	**/
 	public static char[] to1D(char[][] original) {
-
 		//REPLACE WITH YOUR CODE
 		return null;
 	}
@@ -41,7 +37,7 @@ public class ArrayUtilities {
 	/**
 		Finds the char with the smallest value in each row
 		of the original and returns an array containing the 
-		values found. The result at position [0] will be the
+		values found. the result at position [0] will be the
 		smallest valued char in row 0 of original.
 		This method does NOT assume that all subarrays of the
 		original are of the same length.
@@ -54,10 +50,8 @@ public class ArrayUtilities {
 		['c', 'b', 'a', 'b']
 	**/
 	public static char[] smallestPerRow(char[][] original) {
-
 		//REPLACE WITH YOUR CODE
 		return null;
-
 	}
 
 }
