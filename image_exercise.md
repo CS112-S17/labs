@@ -1,7 +1,7 @@
 Participation Exercise
 ======================
 
-### Due TBA
+### Due Friday, 3/10, 5pm
 
 This assignment will be a graded in-class exercise. The assignment will be worth 10 points and will count toward the "Participation and Quizzes" portion of your final grade.
 
