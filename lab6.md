@@ -5,7 +5,7 @@ Lab 6
 
 The goal of this assignment is to implement programs using interfaces and inheritance.
 
-##Requirements
+## Requirements
 1. **Part 1 (25 points):** 
  - Implement a class `PlayingCard`. A `PlayingCard` will have, at minimum, the following properties: `value`, `suit`, and `color` and it will implement a `toString` method that will return a `String` containing all of its properties. `PlayingCard` will also implement the `Comparable` interface. To compare two `PlayingCard` objects you will compare the `value`. If the values are the same then the cards will be sorted according to `suit` where the order is spades, hearts, diamonds, and clubs. The five of diamonds will be higher than the three of diamonds and the three of hearts will be higher than the three of spades.
  - Implement a class `PlayingCardDriver`. The class will contain a `main` method that will: (1) create an `ArrayList` of at least five `PlayingCard` objects; (2) use `Collections.sort` to sort the cards; and (3) print the result to standard output.
