@@ -7,7 +7,7 @@ Lab 8
 
 The goal of this assignment is to implement several methods for a `LinkedList` class.
 
-##Requirements 
+## Requirements 
 
 **Part 1 (50 points)**
 
