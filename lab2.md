@@ -11,7 +11,7 @@ The goal of this assignment is to practice implementing programs that use the fo
 - Conditional operations
 
 
-##Requirements
+## Requirements
 1. **Part 1 (15 points)**: 
   - Create a class `Pokemon`. 
       * A `Pokemon` has the following data members:
