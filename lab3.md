@@ -10,7 +10,7 @@ The goals of this assignment are to implement several programs that use the foll
 - File input and output
 - The `ArrayList` class
 
-##Requirements
+## Requirements
 1. **Part 1 (15 points):** Create a class `Counter` that represents a simple tally counter and a class `CounterDriver` that creates two `Counter` objects and tests their methods. `Counter` will have a single `int` data member to keep track of the count. The constructor will initialize the data member to 0. The class will also implement the following methods:
   - `click` takes no input, returns nothing, and increases the count
   - `getCount` takes no input and returns the current count
